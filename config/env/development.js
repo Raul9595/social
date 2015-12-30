@@ -1,6 +1,8 @@
 'use strict';
 
 var defaultEnvConfig = require('./default');
+var Isemail = require('isemail');
+ var log = console.log.bind(console, 'result');
 
 module.exports = {
   db: {
